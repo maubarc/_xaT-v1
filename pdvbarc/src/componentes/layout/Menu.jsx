@@ -31,6 +31,11 @@ const   Menu    =   props   =>   (
                     <Link   to  ="inativo">Inativo</Link>
                 </li>
 
+            
+                <li>
+                    <Link   to  ="inativo">Inativo</Link>
+                </li>
+
             </ul>
         </nav>
         
