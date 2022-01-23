@@ -1,0 +1,42 @@
+.TabelaProdutos table{
+    width: 100%;
+    color: black;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    
+    margin: 8px;
+    border: black 1px   solid;
+    
+
+}
+
+.TabelaProdutos th{
+    
+}
+
+.TabelaProdutos tr{
+    display: flex;
+    justify-content:space-around;
+    border-radius: 10%;
+     
+    width: 100%;
+    
+}
+
+.TabelaProdutos td{
+    border: 1px solid;
+    min-width: 110px;
+    height: 15px;
+}
+
+.TabelaProdutos .par{
+   
+    background-color: rgb(47, 242, 92);
+    color: rgb(0, 0, 0);
+}
+
+.TabelaProdutos .impar{
+    
+    background-color: rgba(66, 108, 247, 0.618);
+    color:  rgb(0, 0, 0);
+}

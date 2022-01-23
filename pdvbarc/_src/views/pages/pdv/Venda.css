@@ -1,0 +1,120 @@
+.TelaVenda   {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex: 1;
+    background-color: rgb(214, 101, 101);
+    
+}
+
+
+
+.Informacoes{
+    background-color: rgb(233, 233, 179);
+    display: flex;
+    height: 1200px;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 7%;
+
+   
+  
+}
+
+.CupomRotativo{
+    background-color: rgb(186, 232, 140);
+    width: 900px;
+    height: 1200px;
+    border-radius: 7%;
+}
+
+ .h4{
+     
+ }
+
+
+.Info1{
+    display: flex;
+    border-radius: 7%;
+    
+}
+
+.Info2{
+    display: flex;
+    border-radius: 7%;
+
+}
+
+
+.Quantidade{
+    background-color: rgb(208, 135, 135);
+    width: 250px;
+    height: 100px;
+    margin: 50px;
+    font-size: 1.5rem;
+    border-radius: 7%;
+
+}
+
+.Ean{
+    background-color: rgb(84, 29, 29);
+    width: 250px;
+    height: 100px;
+    margin: 50px;
+    font-size: 1.5rem;
+    border-radius: 7%;
+}
+
+.Descricao{
+    background-color: rgb(84, 29, 29);
+    width: 650px;
+    height: 100px;
+    margin: 50px;
+    font-size:  1.5rem;
+    border-radius: 7%;
+}
+
+.ValorTotal{
+    background-color: rgb(84, 29, 29);
+    width: 250px;
+    height: 100px;
+    margin: 50px;
+    font-size:  1.5rem;
+    border-radius: 7%;
+}
+
+.SubTotal{
+    background-color: rgb(84, 29, 29);
+    width: 250px;
+    height: 100px;
+    margin: 50px;
+    font-size:  1.5rem;
+    border-radius: 7%;
+}
+
+.Digitacao{
+    background-color: rgb(84, 29, 29);
+    width: 650px;
+    height: 100;
+    margin: 50px;
+    font-size:  1.5rem;
+    border-radius: 7%;
+}
+
+.Botoe{
+    display: flex;
+    flex: 1;
+    border-radius: 7%;
+   
+    
+    
+
+}
+
+
+.parte2{
+    display: flex;
+    border-radius: 7%;
+}

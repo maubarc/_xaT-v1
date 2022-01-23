@@ -1,0 +1,88 @@
+boa tarde deus, seguimos em mais um projeto_051021-17:00
+
+
+banco
+    mysql
+        coleta
+            id
+            ativo/inativo
+            data
+            validade
+            ean
+            quantidade
+
+        cad_usuario
+            id
+            ativo/inativo
+            email
+            cpf
+            nome
+            loja
+            setor
+API
+    envcoleta cel > banco
+    
+
+model
+
+appweb
+    loguin
+        usuario
+        senha
+    usuario
+        filtro
+            grid
+                appweb / appcel
+                email
+                cpf
+                nome
+                loja
+                setor
+
+        inserir
+            appweb / appcel
+            email
+            cpf
+            nome
+            loja
+            setor
+        
+
+    coleta  
+        filtro
+            grid
+                sessão
+                ean
+                validade
+        inserir 
+            validade (calendario)
+            quantidade
+            ean
+              gravar 
+
+appcel
+    loguin
+    coleta
+        inserir
+            validade (calendario)
+            quantidade
+            ean
+              gravar API
+        
+
+
+
+
+
+execução
+    appcel
+        coleta
+            ean
+            validade 
+            quantidade
+    appweb
+        loguin
+            cadastro de usuario
+            relatorios 
+        
+

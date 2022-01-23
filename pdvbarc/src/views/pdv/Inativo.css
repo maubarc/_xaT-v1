@@ -1,0 +1,50 @@
+.TelaInativo   {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    flex: 1;
+    background-color: brown;
+    
+    
+    
+}
+
+.TelaInativo h1{
+    display: flx;
+    font-size: 10rem;
+    margin-left: 60px;
+
+}
+
+    
+
+.Info1{
+    display: flex;
+}
+.Data{
+
+    width: 250px;
+    height: 200px;
+    margin: 50px;
+    font-size: 2rem;
+
+}
+
+.Hora{
+
+    width: 250px;
+    height: 200px;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.Ip{
+
+    width: 250px;
+    height: 200px;
+    margin: 50px;
+    font-size: 3rem;
+}

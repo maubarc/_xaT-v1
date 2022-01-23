@@ -1,0 +1,18 @@
+.Servidor{
+    display: flex;
+    
+
+
+}
+
+
+.Servidor .btn{
+    width: 200px;
+    height: 200px;
+    background-color: #daa024;
+    color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}

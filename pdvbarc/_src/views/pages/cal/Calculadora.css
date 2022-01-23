@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../../../fonts/RobotoMono-Thin.ttf');
+}
+
+*{
+    font-family: 'RobotoMono-Thin';
+}
+
+.calculadora{
+    height: 500px;
+    width: 260px;
+    overflow: hidden;
+    display: grid;
+    
+    grid-template-columns: repeat(4,    25%);
+    grid-template-rows: 1fr 60px 60px 60px 60px 60px;
+}

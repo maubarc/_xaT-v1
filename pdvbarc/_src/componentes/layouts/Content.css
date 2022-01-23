@@ -1,0 +1,45 @@
+.Content{
+    display: flex;
+    flex:1 ;
+    background-color: #ddd;
+    padding: 30px;
+    justify-content: center;
+    
+}
+
+.Content element{
+    flex: 1;
+}
+
+.UseRef{
+    flex: 1;
+}
+
+.UseState{
+    flex: 1;
+}
+
+.UseEffect{
+    flex: 1;
+}
+
+.UseMemo{
+    flex: 1;
+}
+
+.UseCallback{
+    flex: 1;
+}
+
+.Monitor{
+    flex: 1;
+}
+
+.Servidor{
+    flex: 1;
+}
+
+.Path_comum{
+    flex: 1;
+}
+

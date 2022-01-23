@@ -1,0 +1,49 @@
+.CadUser{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 650px;
+    background: linear-gradient(to bottom, #017691, #01384b7e);
+    align-items: center;
+    border-radius: 15px;  
+   
+    flex-wrap: wrap;  
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: center;
+    
+
+   
+}
+
+.CadInfo{
+    display: flex;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    text-align:left;
+
+}
+
+
+
+.btn{
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}

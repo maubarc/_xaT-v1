@@ -1,0 +1,16 @@
+.Monitor{
+    display: flex;
+    background-color: rgb(218, 36, 36);
+    
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    background-color: #daa024;
+    color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}

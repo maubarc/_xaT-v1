@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+.Botoes2{
+    background-color: rgb(59, 59, 220);
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 690px;
+    border-radius: 7%;
+    border: solid 5px;
+    
+}
+
+
+
+.Botoes2 button{
+
+    width: 150px;
+    height: 150px;
+    flex-wrap: wrap;
+    background-color: rgb(6, 10, 10);
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.Botoes2 .Enter{
+    width: 420px;
+}
+
+.Botoes2 .Funcao{
+    height:  300px;
+}
+
+.Botoes2 .Limpar{
+    height:  300px;
+    background-color: crimson;
+    color: black;
+    
+}
+
+
+
+.Botoes2 .Total{
+    
+    width: 340px;
+    background-color: rgb(7, 238, 255);
+    color: black;
+
+}
