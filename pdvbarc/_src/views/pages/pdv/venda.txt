@@ -1,6 +1,0 @@
-consulta tabela produtos no momento do registro do item > 
-mostra registro
-atualiza subtotal
-
-digitação + enter = consulta item e registra
-digitação + * = (quantidade vezes (digitação + enter))
