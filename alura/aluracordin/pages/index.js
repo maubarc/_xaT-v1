@@ -32,7 +32,6 @@ export default function PaginaInicial() {
         styleSheet={{
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           
-          backgroundColor: appConfig.theme.colors.primary[500],
           backgroundImage: 'url(https://images3.alphacoders.com/687/thumb-1920-687908.jpg)',
           backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
         }}
@@ -42,7 +41,6 @@ export default function PaginaInicial() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          
           flexDirection: {
             xs: 'column',
             sm: 'row',
@@ -50,7 +48,7 @@ export default function PaginaInicial() {
           width: '500px', maxWidth: '700px',
           borderRadius: '5px', padding: '32px', margin: '16px',
           boxShadow: '0 2px 10px 0 rgb(0 0 0 / 20%)',
-          backgroundColor: appConfig.theme.colors.neutrals[600],
+          
         }}
       >
         
@@ -70,6 +68,7 @@ export default function PaginaInicial() {
         <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
           {appConfig.name}
         </Text>
+        
         <TextField
           value={username}
           onChange={function(event){
@@ -85,7 +84,7 @@ export default function PaginaInicial() {
               textColor: appConfig.theme.colors.neutrals[200],
               mainColor: appConfig.theme.colors.neutrals[900],
               mainColorHighlight: appConfig.theme.colors.primary[500],
-              backgroundColor: appConfig.theme.colors.neutrals[800],
+              backgroundColor: appConfig.theme.colors.neutrals[150],
             },
           }}
         />
@@ -95,10 +94,10 @@ export default function PaginaInicial() {
             label='Entrar'
             fullWidth
             buttonColors={{
-              contrastColor: appConfig.theme.colors.neutrals["000"],
-              mainColor: appConfig.theme.colors.primary[500],
+              contrastColor: appConfig.theme.colors.neutrals["100"],
+              mainColor: appConfig.theme.colors.primary[900],
               mainColorLight: appConfig.theme.colors.primary[400],
-              mainColorStrong: appConfig.theme.colors.primary[600],
+              mainColorStrong: appConfig.theme.colors.primary[100],
             }}
           />
 
@@ -113,14 +112,10 @@ export default function PaginaInicial() {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
-              maxWidth: '70px',
+              maxWidth: '150px',
               padding: '16px',
-              backgroundColor: appConfig.theme.colors.neutrals[800],
-              border: '1px solid',
-              borderColor: appConfig.theme.colors.neutrals[999],
-              borderRadius: '10px',
               flex: 1,
-              minHeight: '40px',
+              minHeight: '240px',
             }}
           >
             
@@ -141,7 +136,7 @@ export default function PaginaInicial() {
             }}
           >
           
-          {username}
+            {username}
           
           </Text>
           
